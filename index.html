@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="src/css/style.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Quicksand" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="src/js/main.js"></script>
@@ -17,27 +18,30 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
   <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
+    <div class="container navigation">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-        <a class="navbar-brand" href="#myPage"><img src="images/logo-white.png" alt="HASTRIX" style="width:200px; height:30px;"></a>
+        <a class="navbar-brand" href="#myPage"><img src="images/logo.png" alt="HASTRIX" style="width:200px; height:40px;"></a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#services">SERVICES</a></li>
-          <li><a href="#portfolio">PORTFOLIO</a></li>
-          <li><a href="#contact">CONTACT</a></li>
+        <ul class="nav navbar-nav navbar-right navigation-right">
+          <li><a href="#about">Home</a></li>
+          <li><a href="#services">Products</a></li>
+          <li><a href="#portfolio">Solutions</a></li>
+          <li><a href="#pricing">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
+  <div class="line-big"></div>
 
   <div class="jumbotron text-center">
+    <p>Find us at &rarr; Jammu | Agra | New Delhi | Bhubhneshwar | Lucknow | Indore</p>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -50,27 +54,15 @@
       <div class="carousel-inner">
 
         <div class="item active">
-          <img src="images/1.jpg" alt="1" style="width:100%; height: 500px;">
-          <div class="carousel-caption">
-            <h3>Hastrix</h3>
-            <p>One solution for your complete home automation!</p>
-          </div>
+          <img src="images/1.jpg" alt="1" style="width:100%; height: 400px;">
         </div>
 
         <div class="item">
-          <img src="images/2.jpg" alt="2" style="width:100%; height: 500px;">
-          <div class="carousel-caption">
-            <h3>Hastrix</h3>
-            <p>Where you'll chill and let your smartphone do work!</p>
-          </div>
+          <img src="images/2.jpg" alt="2" style="width:100%; height: 400px;">
         </div>
 
         <div class="item">
-          <img src="images/3.jpg" alt="3" style="width:100%; height: 500px;">
-          <div class="carousel-caption">
-            <h3>Hastrix</h3>
-            <p>Now be lazy as much as you want!</p>
-          </div>
+          <img src="images/3.jpg" alt="3" style="width:100%; height: 400px;">
         </div>
 
       </div>
@@ -91,11 +83,11 @@
   <div id="about" class="container-fluid">
     <div class="row">
       <div class="col-sm-8">
-        <h2>About Company Page</h2><br>
-        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <h2>About HASTRIX</h2><br>
+        <h4>With our products, you can operate almost any device in your home, from almost anywhere via touch screens, wall switches, web tablets, remote controls, mobile phones, computers and also via internet or your mobile phone while you are away. Whatever you want, whenever you want it, wherever you are!</h4><br>
+        <p>The days when being more energy-efficient and environmentally responsible meant leading a more frugal life have long gone.With Hastrix Home Control, you won’t need to compromise your home’s style or sacrifice your family’s quality of life by cutting
+          down on lights or switching off your aircons. It really is possible to achieve more while using less power with Hastrix. The impressive end result is more stylish and comfortable lifestyle at energy efficiency levels that will ensure you are
+          a role model for the entire neighbourhood.</p>
         <br><button class="btn btn-default btn-lg">Get in Touch</button>
       </div>
       <div class="col-sm-4">
@@ -221,6 +213,73 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
+    </div>
+  </div>
+
+  <!-- Container (Pricing Section) -->
+  <div id="pricing" class="container-fluid">
+    <div class="text-center">
+      <h2>Pricing</h2>
+      <h4>Choose a payment plan that works for you</h4>
+    </div>
+    <div class="row slideanim">
+      <div class="col-sm-4 col-xs-12">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h1>Basic</h1>
+          </div>
+          <div class="panel-body">
+            <p><strong>20</strong> Lorem</p>
+            <p><strong>15</strong> Ipsum</p>
+            <p><strong>5</strong> Dolor</p>
+            <p><strong>2</strong> Sit</p>
+            <p><strong>Endless</strong> Amet</p>
+          </div>
+          <div class="panel-footer">
+            <h3>$19</h3>
+            <h4>per month</h4>
+            <button class="btn btn-lg">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h1>Pro</h1>
+          </div>
+          <div class="panel-body">
+            <p><strong>50</strong> Lorem</p>
+            <p><strong>25</strong> Ipsum</p>
+            <p><strong>10</strong> Dolor</p>
+            <p><strong>5</strong> Sit</p>
+            <p><strong>Endless</strong> Amet</p>
+          </div>
+          <div class="panel-footer">
+            <h3>$29</h3>
+            <h4>per month</h4>
+            <button class="btn btn-lg">Sign Up</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-xs-12">
+        <div class="panel panel-default text-center">
+          <div class="panel-heading">
+            <h1>Premium</h1>
+          </div>
+          <div class="panel-body">
+            <p><strong>100</strong> Lorem</p>
+            <p><strong>50</strong> Ipsum</p>
+            <p><strong>25</strong> Dolor</p>
+            <p><strong>10</strong> Sit</p>
+            <p><strong>Endless</strong> Amet</p>
+          </div>
+          <div class="panel-footer">
+            <h3>$49</h3>
+            <h4>per month</h4>
+            <button class="btn btn-lg">Sign Up</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 

@@ -46,4 +46,10 @@ $(document).ready(function() {
       }
     });
   });
+
+  $(document).ready(function(e) {
+    e.stopImmediatePropagation();
+    $('.nav li').removeClass('active'); //or $('.active').removeClass('active');
+  });
+
 });
