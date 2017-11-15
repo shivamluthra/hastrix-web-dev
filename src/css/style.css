@@ -26,6 +26,7 @@ h4 {
   height: 530px;
   color: #fff;
   margin-bottom: 0px;
+  padding-top: 0px;
 }
 
 .jumbotron p {
@@ -195,6 +196,59 @@ h4 {
   color: #fff;
 }
 
+.top-block {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.top-block ul {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.top-block ul li {
+  float: left;
+  color: #999;
+  border-right: 1px solid silver;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.top-block ul li:first-child {
+  border-left: 1px solid silver;
+}
+
+.top-block ul li p {
+  float: right;
+  margin: 0 0 0 5px;
+}
+
+.social-icons {
+  margin-left: 350px !important;
+}
+
+.social-icons li a {
+  color: #999;
+}
+
+.facebook:hover {
+  color: #4267b2;
+}
+
+.twitter:hover {
+  color: #1da1f2;
+}
+
+.instagram:hover {
+  color: hotPink;
+}
+
+.social-icons li i {
+  font-size: 22px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .navbar {
   margin-bottom: 0;
   background-color: #ffffff;
@@ -259,7 +313,6 @@ footer .glyphicon {
   box-shadow: 0px 4px 1px silver;
   -webkit-animation-duration: 4s;
   animation-duration: 4s;
-  background: pink;
 }
 
 .slide {
@@ -268,6 +321,11 @@ footer .glyphicon {
   animation-duration: 1s;
   -webkit-animation-duration: 1s;
   visibility: visible;
+}
+
+.PnM {
+  padding-top: 20px;
+  margin-top: -47px;
 }
 
 @keyframes slide {
