@@ -9,9 +9,12 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="src/css/style.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Quicksand" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Quicksand" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Oxygen|Quicksand|Raleway|Work+Sans" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/82de4367eb.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
   <script src="src/js/main.js"></script>
 </head>
 
@@ -38,17 +41,9 @@
       </div>
     </div>
   </nav>
-  <div class="line-big"></div>
 
   <div class="jumbotron text-center">
-    <p>Find us at &rarr; Jammu | Agra | New Delhi | Bhubhneshwar | Lucknow | Indore</p>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
 
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
@@ -69,93 +64,98 @@
 
       <!-- Left and right controls -->
       <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
+      <i class="fa fa-chevron-left" aria-hidden="true"></i>
       <span class="sr-only">Previous</span>
     </a>
       <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
+      <i class="fa fa-chevron-right" aria-hidden="true"></i>
       <span class="sr-only">Next</span>
     </a>
     </div>
+    <p>Find us at &rarr; Jammu | Agra | New Delhi | Bhubhneshwar | Lucknow | Indore</p>
+    <div class="line-big"></div>
   </div>
 
-  <!-- Container (About Section) -->
-  <div id="about" class="container-fluid">
-    <div class="row">
-      <div class="col-sm-8">
-        <h2>About HASTRIX</h2><br>
-        <h4>With our products, you can operate almost any device in your home, from almost anywhere via touch screens, wall switches, web tablets, remote controls, mobile phones, computers and also via internet or your mobile phone while you are away. Whatever you want, whenever you want it, wherever you are!</h4><br>
-        <p>The days when being more energy-efficient and environmentally responsible meant leading a more frugal life have long gone.With Hastrix Home Control, you won’t need to compromise your home’s style or sacrifice your family’s quality of life by cutting
-          down on lights or switching off your aircons. It really is possible to achieve more while using less power with Hastrix. The impressive end result is more stylish and comfortable lifestyle at energy efficiency levels that will ensure you are
-          a role model for the entire neighbourhood.</p>
-        <br><button class="btn btn-default btn-lg">Get in Touch</button>
-      </div>
-      <div class="col-sm-4">
-        <span class="glyphicon glyphicon-signal logo"></span>
-      </div>
-    </div>
-  </div>
-
-  <div class="container-fluid bg-grey">
-    <div class="row">
-      <div class="col-sm-4">
-        <span class="glyphicon glyphicon-globe logo slideanim"></span>
-      </div>
-      <div class="col-sm-8">
-        <h2>Our Values</h2><br>
-        <h4><strong>MISSION:</strong> Our mission lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h4><br>
-        <p><strong>VISION:</strong> Our vision Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-          ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-          consequat.
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Container (Services Section) -->
+  <!-- Container (Products Section) -->
   <div id="services" class="container-fluid text-center">
-    <h2>SERVICES</h2>
+    <h2>PRODUCTS</h2>
     <h4>What we offer</h4>
     <br>
     <div class="row slideanim">
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-off logo-small"></span>
-        <h4>POWER</h4>
-        <p>Lorem ipsum dolor sit amet..</p>
+        <a href="#"><img src="images/kitchen.jpg" alt="kitchen" style="width:100%; height: 200px;"></a>
+        <h4>COMPLETE PARKING SOLUTIONS</h4>
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-heart logo-small"></span>
-        <h4>LOVE</h4>
-        <p>Lorem ipsum dolor sit amet..</p>
+        <a href="#"><img src="images/cctv.jpg" alt="kitchen" style="width:100%; height: 200px;"></a>
+        <h4>SINGLE APP HOME</h4>
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-lock logo-small"></span>
-        <h4>JOB DONE</h4>
-        <p>Lorem ipsum dolor sit amet..</p>
+        <a href="#"><img src="images/blinds.jpg" alt="kitchen" style="width:100%; height: 200px;"></a>
+        <h4>BLINDS & CURTAINS</h4>
       </div>
     </div>
     <br><br>
     <div class="row slideanim">
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-leaf logo-small"></span>
-        <h4>GREEN</h4>
-        <p>Lorem ipsum dolor sit amet..</p>
+        <a href="#"><img src="images/kitchen.jpg" alt="kitchen" style="width:100%; height: 200px;"></a>
+        <h4>WATER TANK MANAGEMENT</h4>
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-certificate logo-small"></span>
-        <h4>CERTIFIED</h4>
-        <p>Lorem ipsum dolor sit amet..</p>
+        <a href="#"><img src="images/cctv.jpg" alt="kitchen" style="width:100%; height: 200px;"></a>
+        <h4>SAFETY & SECURITY</h4>
       </div>
       <div class="col-sm-4">
-        <span class="glyphicon glyphicon-wrench logo-small"></span>
-        <h4 style="color:#303030;">HARD WORK</h4>
-        <p>Lorem ipsum dolor sit amet..</p>
+        <a href="#"><img src="images/blinds.jpg" alt="kitchen" style="width:100%; height: 200px;"></a>
+        <h4 style="color:#303030;">HOME ENTERTAINMENT</h4>
+      </div>
+    </div>
+    <br><br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <a href="#"><img src="images/kitchen.jpg" alt="kitchen" style="width:100%; height: 200px;"></a>
+        <h4>SMART KITCHEN</h4>
+      </div>
+      <div class="col-sm-4">
+        <a href="#"><img src="images/cctv.jpg" alt="kitchen" style="width:100%; height: 200px;"></a>
+        <h4>CCTV SURVELLIENCE</h4>
+      </div>
+      <div class="col-sm-4">
+        <a href="#"><img src="images/blinds.jpg" alt="kitchen" style="width:100%; height: 200px;"></a>
+        <h4>SMART LIGHTING</h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- Container (Solutions Section) -->
+  <div id="services" class="container-fluid text-center bg-grey">
+    <h2>SOLUTIONS</h2>
+    <h4>Customised Automation Solutions</h4>
+    <br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <div class="solutions">
+          <img src="images/home.jpg" alt="" style="width:250px; height: 250px;">
+        </div>
+        <h4>RESIDENTIAL</h4>
+      </div>
+      <div class="col-sm-4">
+        <div class="solutions">
+          <img src="images/hotel.jpg" alt="" style="width:250px; height: 250px;">
+        </div>
+        <h4>HOTELS</h4>
+      </div>
+      <div class="col-sm-4">
+        <div class="solutions">
+          <img src="images/work.jpg" alt="" style="width:250px; height: 250px;">
+        </div>
+        <h4>CORPORATES</h4>
       </div>
     </div>
   </div>
 
   <!-- Container (Portfolio Section) -->
-  <div id="portfolio" class="container-fluid text-center bg-grey">
+  <div id="portfolio" class="container-fluid text-center">
     <h2>Portfolio</h2><br>
     <h4>What we have created</h4>
     <div class="row text-center slideanim">
