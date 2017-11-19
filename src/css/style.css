@@ -40,7 +40,10 @@ h4 {
 }
 
 .container-fluid {
-  padding: 60px 50px;
+  padding-top: 20px;
+  padding-bottom:40px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .navigation {
@@ -86,6 +89,8 @@ h4 {
   background-image: none;
   color: #666666;
   box-shadow: 1px 1px 1px #666666;
+  width: 40px;
+  height: 70px;
 }
 
 .carousel-control {
@@ -256,7 +261,7 @@ h4 {
   border: 0;
   font-size: 12px !important;
   line-height: 1.42857143 !important;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   border-radius: 0;
   font-family: Montserrat, sans-serif;
 }
@@ -321,11 +326,6 @@ footer .glyphicon {
   animation-duration: 1s;
   -webkit-animation-duration: 1s;
   visibility: visible;
-}
-
-.PnM {
-  padding-top: 20px;
-  margin-top: -47px;
 }
 
 @keyframes slide {
