@@ -9,7 +9,9 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <link href="src/css/style.css" rel="stylesheet" type="text/css">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Quicksand" rel="stylesheet"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="src/css/normalize.css" /> -->
+  <!-- <link rel="stylesheet" type="text/css" href="src/css/demo.css" /> -->
+  <link rel="stylesheet" type="text/css" href="src/css/set1.css" />
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Oxygen|Quicksand|Raleway|Work+Sans" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -39,7 +41,7 @@
     </div>
   </div> -->
 
-  <nav class="navbar navbar-default">
+  <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container navigation">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -95,9 +97,9 @@
     <div class="line-big"></div>
   </div>
 
-  <hr style="height:2px;border:none;color:#333;background-color:#333;" />
+  <hr style="height:1px;border:none;color:#333;background-color:silver;" />
   <!-- Container (Products Section) -->
-  <div id="services" class="container-fluid text-center PnM">
+  <div id="services" class="container-fluid text-center bg-grey PnM">
     <h2>PRODUCTS</h2>
     <br>
     <div class="row slideanim">
@@ -144,6 +146,31 @@
     </div>
   </div>
 
+  <!-- Container (Services Section) -->
+  <div id="services" class="container-fluid text-center">
+    <h2>SERVICES</h2>
+    <h4>What we offer</h4>
+    <br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-off logo-small"></span>
+        <h4>CUSTOMISATION</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-heart logo-small"></span>
+        <h4>INSTALLATION</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-lock logo-small"></span>
+        <h4>AFTER-SALE SERVICE</h4>
+        <p>Lorem ipsum dolor sit amet..</p>
+      </div>
+    </div>
+    <br><br>
+  </div>
+
   <!-- Container (Solutions Section) -->
   <div id="services" class="container-fluid text-center bg-grey PnM">
     <h2>SOLUTIONS</h2>
@@ -174,58 +201,106 @@
   <!-- Container (Portfolio Section) -->
   <div id="portfolio" class="container-fluid text-center">
     <h2>Recent Projects</h2>
-    <div class="row slideanim text-center">
-      <div class="col-sm-3" style="padding: 0 0;">
-        <div class="portfolio">
-          <img src="images/home.jpg" class="img-fluid" alt=""
-          style="max-width:100%; height: auto;">
+    <div class="row text-center recent-projects">
+      <div class="col-sm-3 col-md-3 col-lg-3 col-xs-3" style="padding: 0 0;">
+        <div class="grid">
+          <figure class="effect-layla">
+            <img src="images/compressed.jpg" class="img-fluid" alt="">
+            <figcaption>
+              <h2>Crazy <span>Layla</span></h2>
+              <p>When Layla appears, she brings an eternal summer along.</p>
+              <a href="# ">View more</a>
+            </figcaption>
+          </figure>
         </div>
       </div>
-      <div class="col-sm-3" style="padding: 0 0;">
-        <div class="portfolio">
-          <img src="images/home.jpg" class="img-fluid" alt=""
-          style="max-width:100%; height: auto;">
+      <div class="col-sm-3 col-md-3 col-lg-3 col-xs-3 " style="padding: 0 0; ">
+        <div class="grid ">
+          <figure class="effect-layla ">
+            <img src="images/compressed.jpg " class="img-fluid " alt=" ">
+            <figcaption>
+              <h2>Crazy <span>Layla</span></h2>
+              <p>When Layla appears, she brings an eternal summer along.</p>
+              <a href="#">View more</a>
+            </figcaption>
+          </figure>
         </div>
       </div>
-      <div class="col-sm-3" style="padding: 0 0;">
-        <div class="portfolio">
-          <img src="images/hotel.jpg" class="img-fluid" alt=""
-          style="max-width:100%; height: auto;">
+      <div class="col-sm-3 col-md-3 col-lg-3 col-xs-3" style="padding: 0 0;">
+        <div class="grid">
+          <figure class="effect-layla">
+            <img src="images/compressed.jpg" class="img-fluid" alt="">
+            <figcaption>
+              <h2>Crazy <span>Layla</span></h2>
+              <p>When Layla appears, she brings an eternal summer along.</p>
+              <a href="# ">View more</a>
+            </figcaption>
+          </figure>
         </div>
       </div>
-      <div class="col-sm-3" style="padding: 0 0;">
-        <div class="portfolio">
-          <img src="images/work.jpg" class="img-fluid" alt=""
-          style="max-width:100%; height: auto;">
+      <div class="col-sm-3 col-md-3 col-lg-3 col-xs-3 " style="padding: 0 0; ">
+        <div class="grid ">
+          <figure class="effect-layla ">
+            <img src="images/compressed.jpg " class="img-fluid " alt=" ">
+            <figcaption>
+              <h2>Crazy <span>Layla</span></h2>
+              <p>When Layla appears, she brings an eternal summer along.</p>
+              <a href="#">View more</a>
+            </figcaption>
+          </figure>
         </div>
       </div>
+    </div>
 
-      <div class="col-sm-3" style="padding: 0 0;">
-        <div class="portfolio">
-          <img src="images/home.jpg" class="img-fluid" alt=""
-          style="max-width:100%; height: auto;">
+    <div class="row text-center recent-projects">
+      <div class="col-sm-3 col-md-3 col-lg-3 col-xs-3" style="padding: 0 0;">
+        <div class="grid">
+          <figure class="effect-layla">
+            <img src="images/compressed.jpg" class="img-fluid" alt="">
+            <figcaption>
+              <h2>Crazy <span>Layla</span></h2>
+              <p>When Layla appears, she brings an eternal summer along.</p>
+              <a href="# ">View more</a>
+            </figcaption>
+          </figure>
         </div>
       </div>
-      <div class="col-sm-3" style="padding: 0 0;">
-        <div class="portfolio">
-          <img src="images/home.jpg" class="img-fluid" alt=""
-          style="max-width:100%; height: auto;">
+      <div class="col-sm-3 col-md-3 col-lg-3 col-xs-3 " style="padding: 0 0; ">
+        <div class="grid ">
+          <figure class="effect-layla ">
+            <img src="images/compressed.jpg " class="img-fluid " alt=" ">
+            <figcaption>
+              <h2>Crazy <span>Layla</span></h2>
+              <p>When Layla appears, she brings an eternal summer along.</p>
+              <a href="#">View more</a>
+            </figcaption>
+          </figure>
         </div>
       </div>
-      <div class="col-sm-3" style="padding: 0 0;">
-        <div class="portfolio">
-          <img src="images/hotel.jpg" class="img-fluid" alt=""
-          style="max-width:100%; height: auto;">
+      <div class="col-sm-3 col-md-3 col-lg-3 col-xs-3" style="padding: 0 0;">
+        <div class="grid">
+          <figure class="effect-layla">
+            <img src="images/compressed.jpg" class="img-fluid" alt="">
+            <figcaption>
+              <h2>Crazy <span>Layla</span></h2>
+              <p>When Layla appears, she brings an eternal summer along.</p>
+              <a href="# ">View more</a>
+            </figcaption>
+          </figure>
         </div>
       </div>
-      <div class="col-sm-3" style="padding: 0 0;">
-        <div class="portfolio">
-          <img src="images/work.jpg" class="img-fluid" alt=""
-          style="max-width:100%; height: auto;">
+      <div class="col-sm-3 col-md-3 col-lg-3 col-xs-3 " style="padding: 0 0; ">
+        <div class="grid ">
+          <figure class="effect-layla ">
+            <img src="images/compressed.jpg " class="img-fluid " alt=" ">
+            <figcaption>
+              <h2>Crazy <span>Layla</span></h2>
+              <p>When Layla appears, she brings an eternal summer along.</p>
+              <a href="#">View more</a>
+            </figcaption>
+          </figure>
         </div>
       </div>
-
-
     </div>
   </div>
 
@@ -244,13 +319,13 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <h4>"Amazing, a single app can control entire devices at my home. Thanks for making living style smarter."<br><span>Ar. Devender Singh Rana, MD Rana Hospitality Services</span></h4>
+          <h4>"Amazing, a single app can control entire devices at my home. Thanks for making living style smarter."<br><span>~Ar. Devender Singh Rana, MD Rana Hospitality Services</span></h4>
         </div>
         <div class="item">
-          <h4>"Feeling like I am in a smart century. Thanks Team Hastrix."<br><span>Dr. Bhupendra Sharma</span></h4>
+          <h4>"Feeling like I am in a smart century. Thanks Team Hastrix."<br><span>~Dr. Bhupendra Sharma</span></h4>
         </div>
         <div class="item">
-          <h4>"Wow smart sliding gates are superb. When i reach home, it detects my car and automatically open the garrage"<br><span></span>CA Abhishek Gupta, High Court</h4>
+          <h4>"Wow smart sliding gates are superb. When i reach home, it detects my car and automatically open the garrage"<br><span></span>~CA Abhishek Gupta, High Court</h4>
         </div>
       </div>
 
@@ -264,10 +339,10 @@
       <span class="sr-only">Next</span>
     </a> -->
     </div>
-    </div>
+  </div>
 
   <!--
-  Container (Pricing Section) 
+  Container (Pricing Section)
   <div id="pricing" class="container-fluid bg-grey">
     <div class="text-center">
       <h2>Pricing</h2>

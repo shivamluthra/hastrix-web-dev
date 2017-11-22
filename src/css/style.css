@@ -41,7 +41,7 @@ h4 {
 
 .container-fluid {
   padding-top: 20px;
-  padding-bottom:40px;
+  padding-bottom: 40px;
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -265,6 +265,7 @@ h4 {
   letter-spacing: 2px;
   border-radius: 0;
   font-family: Montserrat, sans-serif;
+  border-bottom: 1px solid grey;
 }
 
 .navbar li a, .navbar .navbar-brand {
@@ -327,6 +328,11 @@ footer .glyphicon {
   animation-duration: 1s;
   -webkit-animation-duration: 1s;
   visibility: visible;
+}
+
+.recent-projects {
+  margin-right: -20px !important;
+  margin-left: -20px !important;
 }
 
 @keyframes slide {

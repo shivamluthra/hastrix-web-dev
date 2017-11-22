@@ -44,12 +44,12 @@ $(document).ready(function() {
       if (pos < winTop + 600) {
         $(this).addClass("slide");
       }
-      if (pos < winTop + 730) {
-        $(".navbar").addClass("navbar-fixed-top");
-      }
-      if ($(".navbar").hasClass("navbar-fixed-top") && winTop <= 20) {
-        $(".navbar").removeClass("navbar-fixed-top");
-      }
+      // if (pos < winTop + 730) {
+      //   $(".navbar").addClass("navbar-fixed-top");
+      // }
+      // if ($(".navbar").hasClass("navbar-fixed-top") && winTop <= 20) {
+      //   $(".navbar").removeClass("navbar-fixed-top");
+      // }
     });
   });
 
